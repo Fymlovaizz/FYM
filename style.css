@@ -85,12 +85,12 @@ header {
 
 .menubar {
     height: 300px;
-    width: 230px;
+    width: 0px;
     position: absolute;
     background-color: grey;
     display: flex;
     transition: .5s;
-    right: -230px;
+    right: 0;
 }
 
 .menubar nav {
@@ -99,6 +99,8 @@ header {
 }
 
 .menubar nav ul {
+    overflow-wrap: break-word;
+    width: 230px;
     display: grid;
     height: 300px;
 }

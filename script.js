@@ -13,7 +13,6 @@ function dropdowndisplay(resolution) {
         navbar.style.display = "flex";
         menubar.style.right = '-230px';
         menu.style.rotate = 'none';
-        setTimeout
     }
 }
 var resolution = window.matchMedia("(max-width: 700px)")
@@ -22,11 +21,11 @@ resolution.addListener(dropdowndisplay)
 menu.style.rotate = 'none';
 menu.addEventListener('click', function () {
     if (menu.style.rotate == 'none') {
-        menubar.style.right = '0';
+        menubar.style.width = '230px';
         menu.style.rotate = '180deg';
     }
     else {
-        menubar.style.right = '-230px';
+        menubar.style.width = '0px';
         menu.style.rotate = 'none';
     }
 
