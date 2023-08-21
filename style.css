@@ -4,6 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body,
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: black;
 }
@@ -76,10 +81,6 @@ header {
     color: white;
     transition: 0.3s;
     transform: rotate(90deg);
-}
-
-body {
-    overflow-x: hidden;
 }
 
 .menubar {

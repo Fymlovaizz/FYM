@@ -2,15 +2,18 @@ var menu = document.getElementById("menu"),
     navbar = document.getElementById("navbar"),
     menubar = document.getElementById("menubar");
 function dropdowndisplay(resolution) {
+    
     if (resolution.matches) {
         menu.style.display = "flex";
         navbar.style.display = "none";
+        menubar.style.display = 'flex';
     }
     else {
         menu.style.display = "none";
         navbar.style.display = "flex";
         menubar.style.right = '-230px';
         menu.style.rotate = 'none';
+        setTimeout
     }
 }
 var resolution = window.matchMedia("(max-width: 700px)")
