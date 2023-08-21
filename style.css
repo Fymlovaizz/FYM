@@ -91,18 +91,17 @@ header {
     display: flex;
     transition: .5s;
     right: 0;
-    overflow-wrap: break-word;
 }
 
 .menubar nav {
     margin: auto;
     display: flex;
-    overflow-wrap: break-word;
 }
-
 .menubar nav ul {
-    overflow-wrap: break-word;
-    width: 230px;
     display: grid;
+    margin: auto;
+    transition: .26s;
+    width: 0px;
     height: 300px;
+    white-space: nowrap;
 }
