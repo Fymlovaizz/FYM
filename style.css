@@ -91,11 +91,13 @@ header {
     display: flex;
     transition: .5s;
     right: 0;
+    overflow-wrap: break-word;
 }
 
 .menubar nav {
     margin: auto;
     display: flex;
+    overflow-wrap: break-word;
 }
 
 .menubar nav ul {
