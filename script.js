@@ -1,7 +1,8 @@
 var menu = document.getElementById("menu"),
     navbar = document.getElementById("navbar"),
     menubar = document.getElementById("menubar"),
-    menubarlist = document.getElementById("menubarlist");
+    menubarlist = document.getElementById("menubarlist"),
+    link = document.querySelectorAll('.link');
 function dropdowndisplay(resolution) {
     
     if (resolution.matches) {
@@ -25,11 +26,13 @@ menu.addEventListener('click', function () {
         menubar.style.width = '230px';
         menu.style.rotate = '180deg';
         menubarlist.style.width = '230px';
+        link.style.width = '230px';
     }
     else {
         menubar.style.width = '0px';
         menu.style.rotate = 'none';
         menubarlist.style.width = '0px';
+        link.style.width = '0px';
     }
 
 })

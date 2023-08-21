@@ -101,7 +101,10 @@ header {
     display: grid;
     margin: auto;
     transition: .26s;
-    width: 0px;
+    width: auto;
     height: 300px;
     white-space: nowrap;
+}
+.menubar nav ul {
+    width: 0px;
 }
